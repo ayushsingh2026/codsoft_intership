@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: black;
+    color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 40px;
+}
+#armylogo{
+    height: 300px;
+    width: 300px;
+    background-image: url(indian\ army\ logo2.jpg);
+    background-size:cover;
+    margin-left:150px;
+}
+#airforcelogo{
+    margin-left:200px;
+    height: 300px;
+    width: 300px;;
+    background-image: url(airforce\ logo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#navylogo{
+    height: 300px;
+    width: 500px;
+    background-image: url(navy\ logo.webp);
+    background-size: cover;
+    margin-left:200px;
+}
+.hero{
+     background: linear-gradient(45deg,#f3eef2,#e0a676,#d7f7c7,#D4D663,#c67b96);
+    background-size: 300% 300%;
+     animation: gradient 1s ease infinite;
+
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.containt{
+    font-size: 30px;
+    color: rgba(11, 11, 11, 0.822);
+}
+#armyintroduction{
+    height: 400px;
+    width: 800px;
+    background-image: url(pexels-yogendra-singh-3351448.jpg);
+    background-size:cover;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+#armymission{
+    height: 400px;
+    width: 800px;
+    background-image: url(mission.jpeg);
+    background-size:cover;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+#armyfield{
+    height: 700px;
+    width: 1000px;
+    background-image: url(Indian_Army_Ranks_Insignia.jpg);
+    margin-left: 400px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+}
