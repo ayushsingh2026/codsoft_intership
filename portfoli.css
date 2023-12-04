@@ -1,0 +1,107 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100px;
+    background-color:#201f20;
+    color: aliceblue;   
+    border: solid;
+    border-color: #F2E2D5;
+    border-inline: 2px;
+}
+.padding{
+    padding-right: 30px;
+}
+#header2{
+    margin-right:680px;
+    font-family: cursive;
+    font-size: 40px;
+    color:white;
+    border: solid;
+    border-top: 2px;
+    border-inline:2px ;
+    border-color: #5FB0E7;
+}
+.content{
+    background-color: black;
+    color: #FFFF;
+    font-size: 40px;
+}
+#ayush:hover{
+        color: #fca311;
+}
+.content2   {
+    background-image: url(myphoto.jpg);
+    height: 500px;
+    width: 600px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 600px;
+    background-color: black;
+    color: #F2E2D5;
+}
+.education div{
+    background-color:black;
+    color: #F2E2D5;
+    height: 400px;
+  
+    
+}
+.skill div{
+    border: solid;
+    border-color: #F2E2D5;
+    border-inline: 2px;
+    background-color:black;
+    color: #F2E2D5;
+    height: 400px;
+    
+}
+.contact{
+    border: solid;
+    border-color: #F2E2D5;
+    border-inline: 2px;
+    background-color:black;
+    color: #F2E2D5;
+    height: 400px;
+}
+.contact i{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    font-size: 50px;
+
+}
+#flex{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    position: relative;
+    top: 40px;
+    right: 50px;
+    
+}
+#flex2:hover{
+    color: #fca311;
+
+}
+#contact2{
+    color: white;
+    position: relative;
+    left: 130px;
+    font-size: 50px;
+}
+#contact2:hover{
+    color: #fca311;
+
+}
+#hover:hover{
+    border:solid;
+    border-radius: 30px;
+    border-width: 4px;
+    border-color:#fca311;
+}
